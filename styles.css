@@ -91,11 +91,17 @@ nav {
 aside {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     grid-area: aside;
     gap: 3.5rem;
     background-color: #1f2937;
+}
+
+aside .top-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
 }
 
 aside p {
