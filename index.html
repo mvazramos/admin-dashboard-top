@@ -11,49 +11,75 @@
 </head>
 
 <body>
-    <nav>
-        <div class="search-section">
-            <div class="search-bar">
-                <img src="./assets/magnify.png" alt="">
-                <input type="text" placeholder="">
+    <div class="admin-container">
+        <nav>
+            <div class="search-section">
+                <div class="search-bar">
+                    <img src="./assets/magnify.png" id="search-image" alt="">
+                    <input type="text" placeholder="">
+                </div>
             </div>
-        </div>
-        <div class="profile"> 
+            <div class="profile"> 
+                <div>
+                    <img src="./assets/bell-ring-outline.png" alt="">
+                    <p class="profile-name">Miguel Ramos</p></div>
+                </div>
+        </nav>
+        <aside>
+            <div class="top-div">
+            <div class="side-title">
+                <p id="title">Dashboard</p>
+            </div>
+
+            <ul class="menu">
+                <li><img src="./assets/home-circle-outline.png" alt=""><a href="#">Home </a></li>
+                <li> <img src="./assets/account-outline.png" alt=""><a href="#">Profile</a></li>
+                <li> <img src="./assets/message-processing-outline.png" alt=""><a href="#">Messages</a></li>
+                <li><img src="./assets/clock-outline.png" alt=""><a href="#">History</a></li>
+                <li> <img src="./assets/format-list-checks.png" alt=""><a href="#">Tasks</a></li>
+                <li> <img src="./assets/account-group-outline.png" alt=""><a href="#">Communities</a></li>
+            </ul>
+            </div>
             <div>
-                <img src="./assets/bell-ring-outline.png" alt="">
-                <p class="profile-name">Miguel Ramos</p></div>
+            <ul class="settings">
+                <li> <img src="./assets/cog-outline.png" alt=""><a href="#">Settings</a></li>
+                <li> <img src="./assets/account-question-outline.png" alt=""><a href="#">Support</a></li>
+                <li><img src="./assets/shield-lock-outline.png" alt=""><a href="#">Privacy</a></li>
+            </ul>
             </div>
-    </nav>
-    <aside>
-        <div class="top-div">
-        <div class="side-title">
-            <p id="title">Dashboard</p>
-        </div>
-
-        <ul class="menu">
-            <li><img src="./assets/home-circle-outline.png" alt=""><a href="#">Home </a></li>
-            <li> <img src="./assets/account-outline.png" alt=""><a href="#">Profile</a></li>
-            <li> <img src="./assets/message-processing-outline.png" alt=""><a href="#">Messages</a></li>
-            <li><img src="./assets/clock-outline.png" alt=""><a href="#">History</a></li>
-            <li> <img src="./assets/format-list-checks.png" alt=""><a href="#">Tasks</a></li>
-            <li> <img src="./assets/account-group-outline.png" alt=""><a href="#">Communities</a></li>
-        </ul>
-        </div>
-        <div>
-        <ul class="settings">
-            <li> <img src="./assets/cog-outline.png" alt=""><a href="#">Settings</a></li>
-            <li> <img src="./assets/account-question-outline.png" alt=""><a href="#">Support</a></li>
-            <li><img src="./assets/shield-lock-outline.png" alt=""><a href="#">Privacy</a></li>
-        </ul>
-        </div>
-    </aside>
-    <main>
-        <div class="myprojects-header">Your Projects</div>
-        <div class="projects">
-            <div class="item">
-                <div class="item-content">
-                    <p>Item 1</p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsum sunt a, voluptatibus recusandae quaerat quas possimus vitae. Porro, quibusdam adipisci? Commodi provident nemo earum placeat explicabo soluta doloribus illum mollitia laborum inventore dolore ipsum consequatur accusamus dolores quaerat sit, debitis eum odit veritatis! Laborum quos aspernatur cumque quidem vel, amet omnis dolores error aliquid quae odit hic voluptates facilis.
+        </aside>
+        <main>
+            <div class="myprojects-header">Your Projects</div>
+            <div class="projects">
+                <div class="item">
+                    <div class="item-content">
+                        <p>Item 1</p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsum sunt a, voluptatibus recusandae quaerat quas possimus vitae. Porro, quibusdam adipisci? Commodi provident nemo earum placeat explicabo soluta doloribus illum mollitia laborum inventore dolore ipsum consequatur accusamus dolores quaerat sit, debitis eum odit veritatis! Laborum quos aspernatur cumque quidem vel, amet omnis dolores error aliquid quae odit hic voluptates facilis.
+                    </div>
+                    <div class="item-icons">
+                        <div>
+                            <img src="./assets/star-plus-outline.png" alt="">
+                            <img src="./assets/eye-plus-outline.png" alt="">
+                            <img src="./assets/share-variant-outline.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <p>Item 2</p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, molestiae est voluptatum sint eos quam veritatis accusantium ducimus tenetur animi culpa earum esse distinctio architecto recusandae officia voluptatem quidem quo necessitatibus. Facilis totam aut vel quidem velit mollitia repellat inventore?
+                    </div>
+                    <div class="item-icons">
+                        <div>
+                            <img src="./assets/star-plus-outline.png" alt="">
+                            <img src="./assets/eye-plus-outline.png" alt="">
+                            <img src="./assets/share-variant-outline.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> <div class="item-content">
+                    <p>Item 3</p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae similique, odit assumenda earum doloremque facilis quibusdam exercitationem expedita minus eligendi, quidem consequuntur nam. Voluptas officiis tempora, provident iusto veritatis ea repellat aspernatur necessitatibus dignissimos ex doloremque voluptates quo odit dicta, nam impedit sint veniam, ipsum eum atque ullam dolores.
                 </div>
                 <div class="item-icons">
                     <div>
@@ -61,12 +87,10 @@
                         <img src="./assets/eye-plus-outline.png" alt="">
                         <img src="./assets/share-variant-outline.png" alt="">
                     </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="item-content">
-                    <p>Item 2</p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, molestiae est voluptatum sint eos quam veritatis accusantium ducimus tenetur animi culpa earum esse distinctio architecto recusandae officia voluptatem quidem quo necessitatibus. Facilis totam aut vel quidem velit mollitia repellat inventore?
+                </div></div>
+                <div class="item"> <div class="item-content">
+                    <p>Item 4</p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum maxime dicta temporibus, odio unde voluptas quam quia, nisi rerum expedita deleniti facilis maiores eos perferendis corrupti quas non? Aliquid, non.
                 </div>
                 <div class="item-icons">
                     <div>
@@ -74,49 +98,27 @@
                         <img src="./assets/eye-plus-outline.png" alt="">
                         <img src="./assets/share-variant-outline.png" alt="">
                     </div>
+                </div></div>
+                <div class="item"> <div class="item-content">
+                    <p>Item 5</p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, repellat modi provident cumque voluptatem accusamus ex quos excepturi nisi ad!
                 </div>
+                <div class="item-icons">
+                    <div>
+                        <img src="./assets/star-plus-outline.png" alt="">
+                        <img src="./assets/eye-plus-outline.png" alt="">
+                        <img src="./assets/share-variant-outline.png" alt="">
+                    </div>
+                </div></div>
             </div>
-            <div class="item"> <div class="item-content">
-                <p>Item 3</p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, beatae similique, odit assumenda earum doloremque facilis quibusdam exercitationem expedita minus eligendi, quidem consequuntur nam. Voluptas officiis tempora, provident iusto veritatis ea repellat aspernatur necessitatibus dignissimos ex doloremque voluptates quo odit dicta, nam impedit sint veniam, ipsum eum atque ullam dolores.
-            </div>
-            <div class="item-icons">
-                <div>
-                    <img src="./assets/star-plus-outline.png" alt="">
-                    <img src="./assets/eye-plus-outline.png" alt="">
-                    <img src="./assets/share-variant-outline.png" alt="">
-                </div>
-            </div></div>
-            <div class="item"> <div class="item-content">
-                <p>Item 4</p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum maxime dicta temporibus, odio unde voluptas quam quia, nisi rerum expedita deleniti facilis maiores eos perferendis corrupti quas non? Aliquid, non.
-            </div>
-            <div class="item-icons">
-                <div>
-                    <img src="./assets/star-plus-outline.png" alt="">
-                    <img src="./assets/eye-plus-outline.png" alt="">
-                    <img src="./assets/share-variant-outline.png" alt="">
-                </div>
-            </div></div>
-            <div class="item"> <div class="item-content">
-                <p>Item 5</p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, repellat modi provident cumque voluptatem accusamus ex quos excepturi nisi ad!
-            </div>
-            <div class="item-icons">
-                <div>
-                    <img src="./assets/star-plus-outline.png" alt="">
-                    <img src="./assets/eye-plus-outline.png" alt="">
-                    <img src="./assets/share-variant-outline.png" alt="">
-                </div>
-            </div></div>
-        </div>
-        <div class="announce-header">Announcements</div>
-        <div class="announcements"></div>
-        <div class="trending-header">Trending</div>
-        <div class="trending">
+            <div class="announce-header">Announcements</div>
+            <div class="announcements"></div>
+            <div class="trending-header">Trending</div>
+            <div class="trending">
 
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>
